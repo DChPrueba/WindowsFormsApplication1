@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class UserControl1 : UserControl
+    public partial class Form2 : Form
     {
-        public UserControl1()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        private void UserControl1_Load(object sender, EventArgs e)
-        {
-            // solo comentario para prueba
         }
     }
 }
